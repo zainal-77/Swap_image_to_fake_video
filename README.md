@@ -18,10 +18,8 @@ In addition, our method generalizes well for faces and characters that were not 
 >
 > [[Project page]](https://people.umass.edu/~yangzhou/MakeItTalk/) 
 > [[Paper]](https://people.umass.edu/~yangzhou/MakeItTalk/MakeItTalk_SIGGRAPH_Asia_Final_round-5.pdf) 
-> [[Video]](https://www.youtube.com/watch?v=OU6Ctzhpc6s) 
 > [[Arxiv]](https://arxiv.org/abs/2004.12992)
-> [[Colab Demo]](quick_demo.ipynb)
-> [[Colab Demo TDLR]](quick_demo_tdlr.ipynb)
+
 
 ![image](https://user-images.githubusercontent.com/82530793/175963817-dc3a4b80-a85e-4fd3-9494-5e9f5b46e257.png)
 
@@ -102,8 +100,7 @@ to amply lip motion (in x/y-axis direction) and head motion displacements, defau
 
 | Puppet Name |  wilk | smiling_person | sketch | color | cartoonM | danbooru1 | 
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Image  | ![
-]![image](https://user-images.githubusercontent.com/82530793/175963998-002a490f-de59-41e0-b019-6b8a25fc0994.png)| ![image](https://user-images.githubusercontent.com/82530793/175964133-ef06b51f-4da9-4136-8eab-7ba94347e5cc.png)  | ![image](https://user-images.githubusercontent.com/82530793/175964173-a10470e8-b5e8-431b-9942-287d300a86aa.png)| ![image](https://user-images.githubusercontent.com/82530793/175964213-9d8e738c-c03e-4648-84e7-9aeded2006ac.png) | ![image](https://user-images.githubusercontent.com/82530793/175964248-7a7f703c-d43d-464c-a0ae-cd2222549fa8.png)  | [![img](examples_cartoon/danbooru1.jpg) ](https://github.com/yzhou359/MakeItTalk/raw/main/examples_cartoon/danbooru1.jpg) |
+| Image  | ![image](https://user-images.githubusercontent.com/82530793/175963998-002a490f-de59-41e0-b019-6b8a25fc0994.png)| ![image](https://user-images.githubusercontent.com/82530793/175964133-ef06b51f-4da9-4136-8eab-7ba94347e5cc.png)  | ![image](https://user-images.githubusercontent.com/82530793/175964173-a10470e8-b5e8-431b-9942-287d300a86aa.png)| ![image](https://user-images.githubusercontent.com/82530793/175964213-9d8e738c-c03e-4648-84e7-9aeded2006ac.png) | ![image](https://user-images.githubusercontent.com/82530793/175964248-7a7f703c-d43d-464c-a0ae-cd2222549fa8.png)  | ![image](https://user-images.githubusercontent.com/82530793/175964891-d73d58f9-9b84-4332-9976-fe62697cffdc.png)|
 
 ```
 python main_end2end_cartoon.py --jpg <cartoon_puppet_name_with_extension> --jpg_bg <puppet_background_with_extension>
