@@ -22,6 +22,7 @@ In addition, our method generalizes well for faces and characters that were not 
 > [[Arxiv]](https://arxiv.org/abs/2004.12992)
 > [[Colab Demo]](quick_demo.ipynb)
 > [[Colab Demo TDLR]](quick_demo_tdlr.ipynb)
+
 ![img](doc/teaser.png)
 
 Figure. Given an audio speech signal and a single portrait image   as input (left), our model generates speaker-aware talking-head animations (right). 
@@ -136,7 +137,7 @@ python main_gen_new_puppet.py <your_puppet_with_file_extension>
     - If it's wrong or not accurate, you can use our tool to drag and refine the landmarks.
     - Estimate the closed mouth landmarks to serve as network input.
     - Delauney triangulate the image with landmarks. 
-
+    
 - check puppet name `smiling_person_example.png` for an example. 
 
 | ![img](doc/landmark_adjust.png) | ![img](doc/landmark_closemouth.png) | ![img](doc/landmark_delauney.png)
@@ -158,7 +159,7 @@ Todo...
     ```shell script
     python main_train_content.py --train --write --root_dir <root_dir> --name <train_instance_name>
     ```
-
+  
 ### Train Speaker-Aware Branch
 Todo...
 
@@ -176,3 +177,8 @@ for the help with the [voice conversion module](https://auspicious3000.github.io
 We thank [Jakub Fiser](https://research.adobe.com/person/jakub-fiser/) for implementing the real-time GPU version of the triangle morphing algorithm. 
 We thank Daichi Ito for sharing the caricature image and Dave Werner
 for Wilk, the gruff but ultimately lovable puppet. 
+
+This research is partially funded by NSF (EAGER-1942069)
+and a gift from Adobe. Our experiments were performed in the
+UMass GPU cluster obtained under the Collaborative Fund managed
+by the MassTech Collaborative.
