@@ -23,7 +23,7 @@ In addition, our method generalizes well for faces and characters that were not 
 > [[Colab Demo]](quick_demo.ipynb)
 > [[Colab Demo TDLR]](quick_demo_tdlr.ipynb)
 
-![img][(doc/teaser.png)](https://github.com/yzhou359/MakeItTalk/raw/main/doc/teaser.png)
+![image](https://user-images.githubusercontent.com/82530793/175963817-dc3a4b80-a85e-4fd3-9494-5e9f5b46e257.png)
 
 Figure. Given an audio speech signal and a single portrait image   as input (left), our model generates speaker-aware talking-head animations (right). 
 Both the speech signal and the input face image are not observed during the model training process.
@@ -102,7 +102,8 @@ to amply lip motion (in x/y-axis direction) and head motion displacements, defau
 
 | Puppet Name |  wilk | smiling_person | sketch | color | cartoonM | danbooru1 | 
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Image  | ![img](examples_cartoon/wilk_fullbody.jpg)  | ![img](examples_cartoon/smiling_person_full.png)  | ![img](examples_cartoon/sketch.png)  | ![img](examples_cartoon/color.jpg)  | ![img](examples_cartoon/cartoonM.png)  | ![img](examples_cartoon/danbooru1.jpg)  |
+| Image  | ![
+]![image](https://user-images.githubusercontent.com/82530793/175963998-002a490f-de59-41e0-b019-6b8a25fc0994.png)| ![image](https://user-images.githubusercontent.com/82530793/175964133-ef06b51f-4da9-4136-8eab-7ba94347e5cc.png)  | ![image](https://user-images.githubusercontent.com/82530793/175964173-a10470e8-b5e8-431b-9942-287d300a86aa.png)| ![image](https://user-images.githubusercontent.com/82530793/175964213-9d8e738c-c03e-4648-84e7-9aeded2006ac.png) | ![image](https://user-images.githubusercontent.com/82530793/175964248-7a7f703c-d43d-464c-a0ae-cd2222549fa8.png)  | [![img](examples_cartoon/danbooru1.jpg) ](https://github.com/yzhou359/MakeItTalk/raw/main/examples_cartoon/danbooru1.jpg) |
 
 ```
 python main_end2end_cartoon.py --jpg <cartoon_puppet_name_with_extension> --jpg_bg <puppet_background_with_extension>
@@ -140,7 +141,7 @@ python main_gen_new_puppet.py <your_puppet_with_file_extension>
     
 - check puppet name `smiling_person_example.png` for an example. 
 
-| ![img](doc/landmark_adjust.png) | ![img](doc/landmark_closemouth.png) | ![img](doc/landmark_delauney.png)
+| ![image](https://user-images.githubusercontent.com/82530793/175964359-28570a2c-57d3-4c4f-bccd-827a06a345c4.png) | ![image](https://user-images.githubusercontent.com/82530793/175964398-64469476-7974-4cac-960c-4c897a936e9a.png) | ![image](https://user-images.githubusercontent.com/82530793/175964436-99c7b796-348e-461c-8685-2a712472e14e.png)
 | :---: | :---: | :---: |
 | Landmark Adjustment Tool |  Closed lips estimation | Delaunay Triangulation |
 
