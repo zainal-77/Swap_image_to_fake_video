@@ -23,7 +23,7 @@ In addition, our method generalizes well for faces and characters that were not 
 > [[Colab Demo]](quick_demo.ipynb)
 > [[Colab Demo TDLR]](quick_demo_tdlr.ipynb)
 
-![img](doc/teaser.png)
+![img][(doc/teaser.png)](https://github.com/yzhou359/MakeItTalk/raw/main/doc/teaser.png)
 
 Figure. Given an audio speech signal and a single portrait image   as input (left), our model generates speaker-aware talking-head animations (right). 
 Both the speech signal and the input face image are not observed during the model training process.
